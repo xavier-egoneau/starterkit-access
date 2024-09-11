@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Synthèse Vocale Naturelle</title>
+        <link rel="stylesheet"  href="css/style.css" type="text/css" media="all"/>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Synthèse Vocale Naturelle</h1>
+            <textarea id="texteALire" name="textalire" aria-label="Texte qui doit être lu" placeholder="Entrez le texte à lire ici..."></textarea>
+            
+            
+            <select id="voixSelect" name="voicechoice" aria-label="Choix de la voix">
+                <option value="">Choisissez une voix</option>
+            </select>
+            <button onclick="parler()" type="button">Lire le texte</button>
+        </div>
+        <script src="js/scripts.js" data-cfasync="false"></script>
+        
+    </body>
+</html>
